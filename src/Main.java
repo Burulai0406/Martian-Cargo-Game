@@ -42,7 +42,7 @@ public class Main {
             // Check if the user has guessed all three locations
             if (correctGuesses == 3) {
                 System.out.println("Congratulation! You found all the boxes.");
-                break;// End the game
+                foundAll=true;// End the game
             }else {
                 attempts++;// Increment the attempt counter
                 // Reset cargo locations after 5 unsuccessful attempts
